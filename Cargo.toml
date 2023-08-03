@@ -1,0 +1,19 @@
+[package]
+name = "arsenal"
+version = "0.0.1"
+edition = "2021"
+keywords = ["audio", "music", "DSP", "synth", "synthesizer"]
+readme = "README.md"
+license-file = "LICENSE"
+description = "music and audio dsp arsenal."
+authors = ["Qichao Lan <chaosprint@gmail.com>"]
+
+
+[dependencies]
+smallvec = { version = "1.10.0" }
+hound = "3.5.0"
+cpal = "0.15.2"
+anyhow = "1.0.72"
+rustfft = "6.1.0"
+eframe = "0.22.0"
+env_logger = "0.10.0"
